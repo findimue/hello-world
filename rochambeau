@@ -1,0 +1,7 @@
+Game = raw_input("Rock, paper, scissors?: ").lower()
+if Game == 'rock':
+    print("paper.  Paper beats rock.")
+elif Game == 'paper':
+    print("scissors. Scissors beat paper.")
+else:
+    print("rock. Rock beats scissors.")
